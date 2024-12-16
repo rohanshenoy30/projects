@@ -1,0 +1,166 @@
+/* Custom color palette */
+:root {
+    --primary-dark: #213555;
+    --secondary-dark: #3E5879;
+    --neutral-light: #D8C4B6;
+    --background-light: #F5EFE7;
+}
+  
+/* Navbar Styles */
+.navbar {
+    background-color: var(--primary-dark);
+}
+  
+.navbar-brand, .navbar-nav .nav-link {
+    color: var(--background-light) !important;
+}
+  
+.navbar-nav .nav-link:hover {
+    color: var(--neutral-light) !important;
+}
+  
+/* Hero Section */
+.hero {
+    background: url('aerospace-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--background-light);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: var(--secondary-dark);
+}
+  
+.hero .btn-primary {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+  
+.hero .btn-primary:hover {
+    background-color: var(--secondary-dark);
+    border-color: var(--secondary-dark);
+}
+  
+/* Card Styles */
+.card {
+    background-color: var(--background-light);
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly increase the size */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+  
+/* Carousel Styles */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+  
+.carousel-caption {
+    background: rgba(33, 53, 85, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+}
+  
+/* Sections */
+#about, #projects {
+    background-color: var(--background-light);
+    color: var(--primary-dark);
+}
+  
+#events, #contact {
+    background-color: var(--neutral-light);
+    color: var(--primary-dark);
+}
+  
+/* OUR DOMAINS Section */
+.container-fluid.text-center h2 {
+    font-weight: bold;
+    color: var(--primary-dark);
+}
+
+.container-fluid.text-center h4 {
+    color: var(--secondary-dark);
+}
+
+.container-fluid.text-center .row .col-sm-4 {
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container-fluid.text-center .row .col-sm-4:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container-fluid.text-center .row .col-sm-4 span {
+    font-size: 50px;
+    color: var(--primary-dark);
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.container-fluid.text-center .row .col-sm-4 h4 {
+    font-weight: bold;
+    color: var(--primary-dark);
+}
+
+.container-fluid.text-center .row .col-sm-4 p {
+    color: var(--secondary-dark);
+    font-size: 16px;
+}
+
+/* Form Styles */
+.form-control {
+    background-color: var(--background-light);
+    border-color: var(--secondary-dark);
+}
+  
+.btn-primary {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+  
+.btn-primary:hover {
+    background-color: var(--secondary-dark);
+    border-color: var(--secondary-dark);
+}
+  
+/* Footer */
+footer {
+    background-color: var(--primary-dark);
+    color: var(--background-light);
+}
+
+
+/* Domain block styles */
+.domain-block {
+    background-color: var(--background-light); /* Light background */
+    padding: 20px; /* Add spacing */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow by default */
+}
+
+/* Hover effect for full block */
+.domain-block:hover {
+    transform: scale(1.05); /* Slightly enlarge the block */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+    background-color: var(--neutral-light); /* Slightly darker background on hover */
+    color: var(--primary-dark); /* Ensure the text is visible */
+}
+
+/* Icon styles */
+.domain-block span {
+    display: block; /* Ensure icon stays on its own line */
+    color: var(--primary-dark); /* Icon color */
+    margin-bottom: 10px; /* Spacing below the icon */
+}
