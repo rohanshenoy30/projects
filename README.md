@@ -1,5 +1,5 @@
 # Projects
-This repository contains a collection of my miscellaneous projects, spanning various domains such as machine learning (ML) and web development. These projects are a mix of experimental code and learning exercises.
+This repository contains a collection of my miscellaneous projects, spanning various domains such as machine learning (ML), web development, OpenCV, and ROS. These projects are a mix of experimental code and learning exercises.
 
 ## Categories
 
@@ -16,5 +16,28 @@ Projects exploring machine learning concepts and techniques.
 ### 2. Web Development
 HTML and front-end projects showcasing basic web development skills.
 
+**Examples:**
+- Responsive web pages.
+- Interactive front-end designs.
+
+---
+
+### 3. OpenCV
+Projects leveraging OpenCV for computer vision tasks.
+
+**Examples:**
+- Image processing and transformations.
+- Object detection and tracking.
+- Edge detection and segmentation.
+
+---
+
+### 4. ROS (Robot Operating System)
+Projects using ROS for robotics and simulation tasks.
+
+**Examples:**
+- ROS packages for controlling robots.
+- Navigation and path planning.
+- Gazebo simulations and robot models.
 
 
