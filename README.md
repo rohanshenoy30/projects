@@ -40,4 +40,14 @@ Projects using ROS for robotics and simulation tasks.
 - Navigation and path planning.
 - Gazebo simulations and robot models.
 
+---
+
+### 4. Deep Learning
+Projects invovling deep learning models and neural networks.
+
+**Examples:**
+- Convolutional neural network for target identification (Aerothon competition).
+- Convolutional neural network for Human identification in disaster situations.
+- Neural Network for classification.
+
 
